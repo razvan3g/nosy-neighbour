@@ -1,0 +1,139 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=".}4wm@oi+yZ15+Mgk(J(">Nosy Neibourgh</variable><variable type="KIND_SpriteKind" id="8T=s:Q!?}5JiBsZT-QhE">Player</variable><variable type="KIND_SpriteKind" id="%nU;~Gg1EDRX#XjEVg90">Projectile</variable><variable type="KIND_SpriteKind" id="-p%^(t_#SorREZB1AT[N">Food</variable><variable type="KIND_SpriteKind" id="P^S#2A+.E54}}BE8r*H!">Enemy</variable></variables><block type="pxt-on-start" id="[E1IL27[4k?w5.hi.(zp" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="`OfW+GmhNnC/t`I79OxE"><value name="img"><shadow type="background_image_picker" id="4xU-LzmxGrY7!J#vYcIw"><field name="img">img`
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dffffffffffffffffffffffffffffffffffffffd................................................................................dffffffffffffffffffffffffffffffffffffffd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dffffffffffffffffffffffffffffffffffffffd................................................................................dffffffffffffffffffffffffffffffffffffffd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dffffffffffffffffffffffffffffffffffffffd................................................................................dffffffffffffffffffffffffffffffffffffffd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................ffffffffffffffffffffffffffffffff.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dffffffffffffffffffffffffffffffffffffffd...................f222222222222222222222222222222f.............................dffffffffffffffffffffffffffffffffffffffd
+dddddddddddddddddddddddddddddddddddddddd...................f222222222222222222222222222222f.............................dddddddddddddddddddddddddddddddddddddddd
+dffffffffffffffffffffffffffffffffffffffd...................f222222222222222222222222222222f.............................dffffffffffffffffffffffffffffffffffffffd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................f222222222222222222222222222222f.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd...................ffffffffffffffffffffffffffffffff.............................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dffffffffffffffffffffffffffffffffffffffd................................................................................dffffffffffffffffffffffffffffffffffffffd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dffffffffffffffffffffffffffffffffffffffd................................................................................dffffffffffffffffffffffffffffffffffffffd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dfddddddddddddddddddddddddddddddddddddfd................................................................................dfddddddddddddddddddddddddddddddddddddfd
+dffffffffffffffffffffffffffffffffffffffd................................................................................dffffffffffffffffffffffffffffffffffffffd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddd................................................................................dddddddddddddddddddddddddddddddddddddddd
+`</field><data>{"commentRefs":[],"fieldData":{"img":"4xU-LzmxGrY7!J#vYcIw"}}</data></shadow></value></block></statement></block><block type="function_definition" id="(:=hqr(z];fH9*LI_E}Q" x="-390" y="110"><mutation name="initNosyNeibourgh" functionid="W.kWKsHEkal(s5FnaMqL"></mutation><field name="function_name">initNosyNeibourgh</field><statement name="STACK"><block type="variables_set" id="cQl@t=7rFE|$[~Xws@%;"><field name="VAR" id=".}4wm@oi+yZ15+Mgk(J(">Nosy Neibourgh</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="ge`D8,geip46(?bcyKmx"><value name="img"><shadow type="screen_image_picker" id="n)wo3sm1XLI-rEDo3kjO"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f b f 4 4 f b f e f f . 
+. f e e 4 1 f d d f 1 4 e e f . 
+. . f e e d d d d d d e e f . . 
+. . . f e e 4 4 4 4 e e f . . . 
+. . e 4 f 2 2 2 2 2 2 f 4 e . . 
+. . 4 d f 2 2 2 2 2 2 f d 4 . . 
+. . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"n)wo3sm1XLI-rEDo3kjO"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ohUy|ht-Sk?LAIrap|I%"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="gameinterval" id="QG%31g-4@yCYY1y#Kk8Q" x="230" y="250"><value name="period"><shadow type="timePicker" id="wDQI+*dyy.umK*iXD}1Q"><field name="ms">5000</field></shadow></value></block></xml>
